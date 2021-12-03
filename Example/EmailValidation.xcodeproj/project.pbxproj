@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		036DDAF791BC932E4EC03C8E /* EmailValidation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EmailValidation.podspec; path = ../EmailValidation.podspec; sourceTree = "<group>"; };
+		036DDAF791BC932E4EC03C8E /* EmailValidation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EmailValidation.podspec; path = ../EmailValidation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B698D47696E76685B4A47EE /* Pods-EmailValidation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailValidation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EmailValidation_Tests/Pods-EmailValidation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2EE58B33497CF858BD1A1B73 /* Pods-EmailValidation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailValidation_Example.debug.xcconfig"; path = "Target Support Files/Pods-EmailValidation_Example/Pods-EmailValidation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		30D9D2F369875E79FA41C3A9 /* Pods-EmailValidation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailValidation_Example.release.xcconfig"; path = "Target Support Files/Pods-EmailValidation_Example/Pods-EmailValidation_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACE51AFB9204008FA782 /* EmailValidation_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailValidation_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A1E8A833DED8220F036967B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CC8905BDF46BCBDA59CF347C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A1E8A833DED8220F036967B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CC8905BDF46BCBDA59CF347C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CF1411E41665BCEF436FC637 /* Pods_EmailValidation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailValidation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9074C5E2DB16F36CA10089 /* Pods-EmailValidation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailValidation_Tests.release.xcconfig"; path = "Target Support Files/Pods-EmailValidation_Tests/Pods-EmailValidation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				1B698D47696E76685B4A47EE /* Pods-EmailValidation_Tests.debug.xcconfig */,
 				DF9074C5E2DB16F36CA10089 /* Pods-EmailValidation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
